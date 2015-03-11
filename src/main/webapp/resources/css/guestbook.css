@@ -1,3 +1,10 @@
+.guestbook_wrapper
+{
+	width: 800px;
+	margin: auto;
+	padding: auto;
+}
+
 .input-container
 {
 	margin:20px 0px 0px 30px;
@@ -6,8 +13,7 @@
 
 .jumbotron
 {
-	height:300px;
-	padding: 10px 0px;
+	padding: 10px 20px;
 }
 
 .input-box
@@ -21,17 +27,24 @@
 	margin-top:15px;
 }
 
-.no-bottom-margin
-{
-	margin-bottom:0px
-}
-
 .no-resize
 {
 	resize:none;
 }
 
-.margin-bottom
+.input-attach
 {
-	margin-bottom:15px;
+	height: 30px;
+	float: right;
+}
+
+
+.interval
+{
+	margin-bottom:20px;
+}
+
+.button-group
+{
+	margin: auto;
 }
